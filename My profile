@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="#052B1A1A"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#60DFF1FA"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/n1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/abc_vector_test"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/n11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:drawable/ic_menu_compass"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="MY Profile"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/n1"
+        app:layout_constraintTop_toBottomOf="@id/n1" />
+
+    <Button
+        android:id="@+id/n3"
+        android:layout_width="75dp"
+        android:layout_height='75dp'
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_launcher_foreground"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/n2" />
+
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Android Studio"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n3" />
+
+    <TextView
+        android:id="@+id/n5"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:hint="hien chua biet ro tung tich"
+        android:textSize="15dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n4" />
+
+    <TextView
+        android:id="@+id/n6"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:hint="Tuyen Quang.Vn"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n5" />
+
+    <TextView
+        android:id="@+id/n72"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:hint="Photos"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/n71"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n6" />
+
+    <TextView
+        android:id="@+id/n71"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:hint="Follower"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/n7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/n72"
+        app:layout_constraintTop_toBottomOf="@id/n6" />
+
+    <TextView
+        android:id="@+id/n7"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:hint="Follows"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/n71"
+        app:layout_constraintTop_toBottomOf="@id/n6" />
+    <TextView
+        android:id="@+id/n8"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="1201"
+        app:layout_constraintEnd_toStartOf="@+id/n71"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n72"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:text="7415"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/n7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/n72"
+        app:layout_constraintTop_toBottomOf="@id/n71" />
+    <TextView
+        android:id="@+id/n81"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:text="2004"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/n71"
+        app:layout_constraintTop_toBottomOf="@id/n7"/>
+    <ImageButton
+        android:id="@+id/n9"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:background="@mipmap/ic_launcher"
+        app:layout_constraintTop_toBottomOf="@id/n8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/n91"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/ic_launcher_foreground"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n81" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="28dp"
+        android:background="@android:drawable/ic_menu_myplaces"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/n91" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
